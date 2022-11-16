@@ -1,0 +1,479 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+/*** Generales ***/
+
+body{
+    /* background-color: */
+    font-family: 'Montserrat', 'Tangerine', sans-serif;
+    margin-right: 10px;
+    margin-left: 50px;
+    background-image: url(/assets/images/justicia7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+}
+
+/* .bodyIndex{
+    /* background-image: url(../assets/images/justicia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px 10px rgb(85, 84, 84); */
+} */
+
+.titleIndex{
+    min-height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    background-image: url(../assets/images/logojusticia3.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 100px 0px;
+    filter: brightness(1.1); /* eliminar fondo blanco del logo */
+    mix-blend-mode: multiply; /* eliminar fondo blanco del logo */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main{
+    min-height: 100vh; /* para mantener siempre al footer abajo aunque tenga poco contenido la web */
+}
+
+/*** MENU ***/
+
+.headerNav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-image: linear-gradient(to bottom, #dcd38c, #e2dba0, #e7e2b4, #edeac9, #f9f9f7);
+    opacity: 60%;
+}
+
+.navbarList{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarItem{
+    display: inline-block; /* los pone en linea */
+}
+
+.navbarLink{
+    color: black;
+    display: inline-block; /* los pone en linea */
+    padding: 20px; /* espacio entre el contenido y la linea */
+}
+
+.navbarLink:hover{
+    background-color: lightgray;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+
+/* MAIN */
+
+.contenido{
+    min-height: 100vh;
+    background: linear-gradient(rgba(183, 226, 226, 0.5), rgba(0, 0, 0, 0.5));
+    /*background: linear-gradient(rgba(5, 7, 12, 1.75), rgba(5, 7, 12, 1.75));*/
+    background-image: url(../assets/images/justicia7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px 10px rgb(85, 84, 84);
+    display: flex;
+    margin: 4rem;
+}
+
+.article1{
+    width: 80%;
+    display: flex;
+    margin: 10px;
+    margin-left: 80px;
+    padding: 20px;
+    flex-direction: row;
+    text-align: center;
+    z-index: 1;
+}
+
+.article2{
+    width: 80%;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    flex-direction: row;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.article2 img{
+    margin-top: 70px;
+    border: solid 0px;
+}
+
+.articleContenido{
+    padding: 3rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.271);
+}
+
+.articleParrafo{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.image{
+
+}
+
+
+p{
+    text-align: center;
+    font-style: oblique;
+}
+
+
+h1{
+    color:rgba(66, 73, 68, 0.71);
+    /* background-image: ;/* url(https://aldiaargentina.microjuris.com/wp-content/uploads/2021/03/justicia.jpg);*/
+    text-align: center; /* centrado del texto */
+    text-decoration: none ; /* subrayado */
+    text-transform: uppercase; /* minuscula y mayusculas */
+    text-indent: 0%; /* sangría del texto */
+    /* text-decoration-color: ;/* rgb(78, 144, 122); color del subrayado */
+    text-align-last: center; /* igual al align */
+    font-style: italic; /* inclinacion */
+    font-weight: normal; /* grosor del texto */
+    font-size: 60px; /* tamaño del texto */
+    font-family: 'Georgia', 'Times New Roman', Times, serif; /* tipo de letra */
+    padding: 20px;
+    
+} 
+
+h3{
+    font-size: 30px; 
+    color:rgba(66, 73, 68, 0.71);
+    font-family: georgia;
+    font-weight: 100px;
+    text-align: center;
+}
+
+
+span{
+    color: blue; /* con SPAN diseñamos texto especifico */
+}
+
+
+
+.tituloPaginas{
+    font-size: 30px; 
+    color:rgba(66, 73, 68, 0.71);
+    font-family: georgia;
+    font-weight: 100px;
+    
+}
+
+.mision {
+    border: solid 2px;
+    border-radius: 0px 20px 0px 20px;
+    border-width: 1px;
+    border-style: hidden;
+    background: linear-gradient(rgb(188, 188, 188), white)
+        
+}
+
+.mision1 {
+    margin-left: 20px;
+    font-style: oblique;
+}
+
+.mision2 {
+    text-align: justify;
+    font-style: oblique;
+}
+
+
+/* formulario */
+
+form{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form label{
+    width: 72px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.boton{
+    width: 30%;
+    padding: 8px 16px;
+    margin-top: 2rem;
+    margin-left: 50px;
+    border-radius: 5px;
+    display: inline;
+    justify-content: center;
+    background-color: rgb(177, 176, 176);
+    cursor: pointer;
+    
+}
+
+h4{
+    color:rgba(66, 73, 68, 0.71);
+    text-align: center;
+    text-decoration: solid underline;
+    text-transform: uppercase;
+    margin-top: 6%;
+}
+
+.consultaGeneral{
+    margin-top: 25px;
+    width: 400px;
+    text-align: start;
+    padding: 20px 20px 20px 0px;
+    /*background: rgba(5, 7, 12, 0.182);*/
+    background: linear-gradient(rgba(154, 160, 160, 0.318), rgba(203, 202, 202, 0.263));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.enlacesTitulo{
+    font: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: black;
+}
+
+.enlacesExternos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    ;
+}
+
+/* footer */
+
+.footerGeneral{
+    width: 100%;
+    background-color: rgb(229, 227, 227);
+    font-weight: bold;
+    margin-top: 0;
+    background: linear-gradient(rgba(154, 160, 160, 0.318), rgba(203, 202, 202, 0.263));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    ;
+}
+
+.footerGeneral p{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+/* Pagina: Areas de Practica */
+
+.grid-container{
+    display: grid;
+}
+
+.tituloPaginas{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.271);
+    margin: 50px;
+}
+
+.ramas{
+    display: flex;
+    height: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent: 40px; /*sangria del texto*/ 
+    border: solid 3px rgba(0, 0, 0, 0.54); /* texto dentro de un borde*/
+    width: 50%;
+    border-radius: 5px; /* bordes redondeados*/
+    border-style: hidden;
+    padding: 5px;
+    margin-left: 330px;
+    background: linear-gradient(rgb(142, 187, 142), linen); /* degradado del texto */
+    text-transform: uppercase;
+}
+
+.subramas1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 400px;
+    background-color: none;
+    text-decoration: underline;
+
+}
+
+.subramas2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 400px;
+    background-color: none;
+    text-decoration: underline;
+}
+
+
+/* Pagina: Staff */
+
+.tituloStaff{
+    margin-top: 50px;
+}
+
+.fotoRecibido{
+    border-radius: 120px;
+    border: solid 2px rgba(8, 2, 2, 0.899);
+    padding: 3px; /* espacio entre el contenido y la linea*/
+    margin: 10px; /* margen por fuera del elemento*/
+    /*transform: rotate(10deg); rota la imagen. también se puede usar para otras etiquetas */
+    /* filter: blur(1px); sirve para que se vea borroso */
+    filter: opacity(90%); /* sirve para darle transparencia */
+    filter:saturate(70%) brightness(90%) contrast(85%); /* sirve para darle efectos a las fotos */
+    margin-left: 550px;
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    object-fit: cover;
+    box-shadow: 100px 100px 100px 1px;
+}
+
+/* Pagina: About us */
+
+.tituloAboutus{
+    margin-top: 50px;
+}
+
+.flexContainerNav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: none;
+}
+
+.gridContainerP{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    background: rgba(206, 200, 200, 0.481);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+
+.grid-text{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.029);
+}
+
+
+/* Pagina: Contacto */
+
+.tituloContacto{
+    margin-top: 50px;
+}
+
+.grid-container{
+    display: grid;
+}
+
+@media screen and (max-width: 899px){
+    .grid-container{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 70px auto 1fr 100px;
+        grid-template-areas: 
+        "header header"
+        "navbar navbar"
+        "text text"
+        "image image"
+        "consultaGeneral consultaGeneral"
+        "enlacesExternos enlacesExternos"
+        "footerGeneral footerGeneral"
+        ;
+    }
+
+.headerNav{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar{
+    grid-area: navbar;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    grid-area: text;
+}
+
+.image{
+    grid-area: image;
+}
+
+.consultaGeneral{
+    grid-area: consultaGeneral;
+}
+
+.enlacesExternos{
+    grid-area: enlacesExternos;
+}
+
+.footerGeneral{
+    grid-area: footerGeneral;
+}
+}

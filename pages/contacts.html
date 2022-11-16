@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <header class="headerNav">
+        <nav class="navbar">
+            <ul class="navbarList">
+                <li class="navbarItem"><a class="navbarLink" href="../index.html">Inicio</a></li>
+                <li class="navbarItem"><a class="navbarLink" href="../pages/practicearea.html">Areas de Práctica</a>
+                </li>
+                <li class="navbarItem"><a class="navbarLink" href="../pages/staff.html">Staff</a></li>
+                <li class="navbarItem"><a class="navbarLink" href="../pages/aboutus.html">Sobre nosotros</a></li>
+                <li class="navbarItem"><a class="navbarLink active" href="../pages/contacts.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="tituloPaginas">
+        <h3>CONTACTO</h3>
+    </section>
+    <main>
+        <div>
+            <fieldset>
+                <legend>
+                    <h4>Envienos su consulta</h4>
+                </legend>
+                <section>
+                    <div class="consultaGeneral">
+                        <form name="formulario" method="post" action="">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                            <div>
+                                <label for="name">Nombre:</label>
+                                <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                            </div>
+                            <div>
+                                <label for="telephone">Teléfono:</label>
+                                <input type="text" id="telephone" name="telephone" placeholder="Ingrese su teléfono">
+                            </div>
+                            <div>
+                                <label for="provincia">Provincia:</label>
+                                <select name="provincia" id="provincia">
+                                    <option hidden selected> Seleccione</option>
+                                    <option value="buenos Aires">Buenos Aires</option>
+                                    <option value="cordoba">Cordoba</option>
+                                    <option value="santa fe">Santa Fe</option>
+                                    <option value="corrientes">Corrientes</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="comentarios">Consulta</label>
+                                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                                    placeholder="Ingrese su consulta"></textarea>
+                            </div>
+                            <div>
+                                <input class="boton" type="submit" value="Enviar">
+                                <input class="boton" type="reset" value="Borrar">
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </section>
+            </fieldset>
+        </div>
+        <div>
+            <ul class="enlacesExternos">
+                <li><a href=""><span>SUBIR</span></a></li>
+                <li><a href="../index.html"><span>INICIO</span></a></li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footerGeneral">
+        <div>
+            <div>
+                <p>2022 Boto&Asociados</p>
+                <p>© Todos los Derechos Reservados ©</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

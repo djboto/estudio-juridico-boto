@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Estudio Jurídico Boto & Asociados</title>
+</head>
+<body>
+    <section class="grid-container" > <!-- class="bodyIndex" -->
+        <header class="headerNav">
+            <nav class="navbar">
+                <ul class="navbarList">
+                    <li class="navbarItem"><a class="navbarLink active" href="./index.html">Inicio</a></li>
+                    <li class="navbarItem"><a class="navbarLink" href="./pages/practicearea.html">Areas
+                            de Práctica</a></li>
+                    <li class="navbarItem"><a class="navbarLink" href="./pages/staff.html">Staff</a>
+                    </li>
+                    <li class="navbarItem"><a class="navbarLink" href="./pages/aboutus.html">Sobre
+                            nosotros</a></li>
+                    <li class="navbarItem"><a class="navbarLink" href="./pages/contacts.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="text">
+            <section class="titleIndex">
+                <h1 id="titulo">BOTO & ASOCIADOS</h1>
+            </section>
+            <section class="contenido">
+                <article class="article1">
+                    <div class="articleContenido">
+                        <h3>Nuestra Misión</h3>
+                        <br>
+                        <p class="articleParrafo">Consideramos que nuestro cliente debe abocarse a sus actividades
+                            personales y empresariales teniendo la seguridad que el profesional legal de su confianza
+                            llevará adelante de forma eficaz sus necesidades jurídicas.”</p>
+                        <br>
+                        <picture class="image">
+                            <img src="./assets/images/justicia2.jpg" alt="un libro y un martillo">
+                        </picture>
+                    </div>
+                </article>
+                <article class="article2">
+                    <div class="articleContenido">
+                        <h3>Nuestro Equipo</h3>
+                        <br>
+                        <p class="articleParrafo">El Estudio Jurídico Boto & Asciados cuenta con profesionales
+                            comprometidos con sus clientes.</p>
+                        <picture class="image">
+                            <img src="./assets/images/foto10.jpg" alt="cerrando un caso">
+                        </picture>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <br>
+        <br>
+        <br>
+        <!-- Formularios -->
+        <div>
+            <fieldset class="consultaGeneral">
+                <div>
+                    <h4>Envienos su consulta</h4>
+                </div>
+                <section>
+                    <div>
+                        <form name="formulario" method="post" action="">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                            <div>
+                                <label for="name">Nombre:</label>
+                                <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                            </div>
+                            <div>
+                                <label for="telephone">Teléfono:</label>
+                                <input type="text" id="telephone" name="telephone" placeholder="Ingrese su teléfono">
+                            </div>
+                            <div>
+                                <label for="provincia">Provincia: </label>
+                                <select name="provincia" id="provincia">
+                                    <option hidden selected> Seleccione</option>
+                                    <option value="buenos Aires">Buenos Aires</option>
+                                    <option value="cordoba">Cordoba</option>
+                                    <option value="santa fe">Santa Fe</option>
+                                    <option value="corrientes">Corrientes</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="comentarios">Consulta</label>
+                                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                                    placeholder="Ingrese su consulta"></textarea>
+                            </div>
+                            <div>
+                                <input class="boton" type="submit" value="Enviar">
+                                <input class="boton" type="reset" value="Borrar">
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </section>
+            </fieldset>
+        </div>
+        <br>
+        <br>
+        <!-- Enlaces: a ref  poner ./ para que tome las otras paginas -->
+        <div>
+            <div class="enlacesExternos">
+                <ul>
+                    <li><a href="./index.html"><span>SUBIR</span></a></li>
+                    <li><a href="https://www.pjn.gov.ar/" target="_blank"><span>PODER JUDICIAL DE LA NACION</span></a>
+                    </li>
+                    <li><a href="https://www.cpacf.org.ar/" target="_blank"><span>COLEGIO PUBLICO DE ABOGADOS DE LA
+                                CAPITAL FEDERAL</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- slo para sitios externos se usa el _blank-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="footerGeneral">
+            <div>
+                <div>
+                    <p>2022 Boto&Asociados</p>
+                    <p>© Todos los Derechos Reservados ©</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
